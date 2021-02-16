@@ -1,0 +1,54 @@
+.divform{
+    margin-top: 2%;
+}
+.div-form{
+    display: flex;
+    justify-content: space-around;
+}
+.div-form1{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 2%;
+}
+
+.inputbday{
+    max-width: 23.34%;
+}
+.inputbday input{
+    height: 50%;
+}
+
+.submitbutton{
+    float: right;
+    width: 20%;
+    height: 100%;
+    padding: 2%;
+    margin-top: 8%;
+    margin-right: 5%;
+    border-radius: 0.5rem;
+    border: none;
+    color: #ffff;
+    text-transform: uppercase;
+    background-color: #1da0f2;
+}
+
+@media only screen  and (max-width:1000px){
+
+    .div-form{
+        flex-direction: column;
+    }
+    .inputbday{
+        width: 100%;
+        max-width: 100%;
+        margin: 3% 0;
+    }
+
+    label{
+        color: #ffffff;
+    }
+    .submitbutton{
+        width: 100%;
+        margin: 5% 0;
+        padding: 3%;
+    }
+}

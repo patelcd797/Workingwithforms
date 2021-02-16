@@ -1,0 +1,21 @@
+.divheader{
+    text-align: center;
+    padding: 1%;
+    text-transform: capitalize;
+    animation: divheaderanimation 4s;
+}
+
+@keyframes divheaderanimation {
+
+    0%{
+        opacity: 0;
+        transform: translate(-2rem);
+    }
+    80%{
+        transform: translate(2rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0rem);
+    }
+}
